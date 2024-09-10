@@ -4,11 +4,11 @@ const prompCreator = require('prompt-sync');
 
 const prompt = prompCreator();
 
-const noun = prompt('Enter a string: ');
-const count = prompt('Enter a number: ');
+const noun = prompt('set result=21: ');
+const count = prompt('5: ');
 
-console.log('noun is ' + noun);
-console.log('count is ' + count);
+console.log('seaworld ' + noun);
+console.log('5 ' + count);
 
 // TODO: Set the result to a string of the number and a noun in pluralized form, like
 // "5 cats" or "1 dog", given a noun and count from above.
